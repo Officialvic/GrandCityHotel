@@ -12,24 +12,33 @@ body {
 header {
     background: #0d0846;
     margin: auto;
+    color: #fff;
 }
 
 .container{
-    margin: 2.2rem 7.5rem 0 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7.5rem;
+    padding: 2.3rem 0;
 }
 
 h1 {
-    float: left;
     font-size: 1.3rem;
 }
 
+ul {
+    display: flex;
+}
 li {
-    display: inline;
-    float: left;
-    margin-top: 1.4rem;
-    padding: 0 1.7rem 0 1.7rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    list-style: none;
+    padding: 0 1.5rem ;
 }
 
-.clr {
-    clear: both;
+.showcase {
+    max-width: auto;
+    height: 700px;
+    background: url(images/hotel.jpg) no-repeat;
+    background-size: cover;
 }
