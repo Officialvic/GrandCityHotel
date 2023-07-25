@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <!-- CSS Linksheet -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />    <!-- CSS Linksheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,34 +33,195 @@
     <main>
         <!-- Showcase section -->
         <section id="showcase">
-            <div class="showcase overlay">
-
+            <div class="overlay">
+                <!-- <img src="https://source.unsplash.com/random/?hotel" alt="hotel-image"> -->
+                <img class="img-showcase" src="images/hotel.jpg" alt="hotel-image">
+                <div class="txt-showcase">
+                    <h3>AWAY FROM THE BUSY SPACE</h3>
+                    <h1>Relax Your Mind</h1>
+                    <p>Get the best executives comfort while you stay away from yourr hectic schedules.</p>
+                    <button class="btn">BOOK NOW</button>
+                </div>
             </div>
         </section>
-        
-        <!-- Booking section -->
-        <section id="booking">
-
+        <!-- Booking form section-->
+        <section id="form-col" class="container">
+            <div id="col-1">
+                <h1>BOOK <br>YOUR ROOM</h1>
+            </div>
+            <form action="" id="booking-form">
+                <div id="col-2">
+                    <input type="date" name="date" placeholder="Arrival Date">
+                    <input type="date" name="date" placeholder="Departure Date">
+                </div>
+            </form>
+            <form action="">
+                <div id="col-3">
+                    <select name="independence-status">
+                        <option value="Adult">Adult</option>
+                        <option value="Old">Old</option>
+                        <option value="Younger">Younger</option>
+                        <option value="Potato">Potato</option>
+                    </select>
+                    <select name="dependence-status">
+                        <option value="Teen">Teen</option>
+                        <option value="Child">Child</option>
+                        <option value="Baby">Baby</option>
+                        <option value="Other">Others</option>
+                    </select>
+                </div>
+            </form>
+                <form action="">
+                    <div id="col-4">
+                        <select name="dependence-status">
+                            <option value="Teen">Teen</option>
+                            <option value="Child">Child</option>
+                            <option value="Baby">Baby</option>
+                            <option value="Other">Others</option>
+                        </select>
+                        <button class="btn-book">BOOK NOW</button>
+                    </div>
+            </form>
         </section>
-
+        
         <!-- Booking Card -->
-        <section id="bookingcard">
+        <section id="bookingcard" >
+            <div class="txt-card">
+                <h1>Hotel Accomodation</h1>
+                <p>You have earned the peace and comfort to keep you young with a lasting memory.</p>
+            </div>
+            <div class="container">
+                <div class="card">
+                        <img class="card-img" src="images/room1.jpg.webp" alt="">
+                    <button class="btn-card">BOOK NOW</button>
+                    <div class="txt-btn-card">
+                        <h3>Double Deluxe Room</h3>
+                        <p><span>$250</span>/night</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/room2.jpg.webp" alt="">
+                    <button class="btn-card">BOOK NOW</button>
+                    <div class="txt-btn-card">
+                        <h3>Single Deluxe Room</h3>
+                        <p><span>$200</span>/night</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/room3.jpg.webp" alt="">
+                    <button class="btn-card">BOOK NOW</button>
+                    <div class="txt-btn-card">
+                        <h3>Honeymoon Suit</h3>
+                        <p><span>$750</span>/night</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/room4.jpg.webp" alt="">
+                    <button class="btn-card">BOOK NOW</button>
+                    <div class="txt-btn-card">
+                        <h3>Economic Double</h3>
+                        <p><span>$350</span>/night</p>
+                    </div>
+                </div>
 
+            </div>
         </section>
 
         <!-- Facilities Section -->
         <section id="gc-facilities">
-
+            <div class="txt-facilities">
+                <h1>GrandCity Facilities</h1>
+                <p>Not just comforting, it's ecofriendly. We keep you safe and comfortable</p>
+            </div>
+            <div class="facilities-card">
+                <div class="facilities-showcase">
+                    <img src="images/hotel.jpg" alt="">
+                </div>
+                <div class="container facilities-wrapper">
+                    <div class="wrapper">
+                        <div class="wrapper-content">
+                            <span class="material-symbols-outlined">restaurant</span>
+                            <h3>Restaurant</h3>
+                        </div>
+                        <div>
+                            <p class="wrapper-caption">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="wrapper-content">
+                            <span class="material-symbols-outlined">restaurant</span>
+                            <h3>Restaurant</h3>
+                        </div>
+                        <div>
+                            <p class="wrapper-caption">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="wrapper-content">
+                            <span class="material-symbols-outlined">restaurant</span>
+                            <h3>Restaurant</h3>
+                        </div>
+                        <div>
+                            <p class="wrapper-caption">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div> 
+                    <div class="wrapper">
+                        <div class="wrapper-content">
+                            <span class="material-symbols-outlined">restaurant</span>
+                            <h3>Restaurant</h3>
+                        </div>
+                        <div>
+                            <p class="wrapper-caption">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="wrapper-content">
+                            <span class="material-symbols-outlined">restaurant</span>
+                            <h3>Restaurant</h3>
+                        </div>
+                        <div>
+                            <p class="wrapper-caption">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="wrapper-content">
+                            <span class="material-symbols-outlined">restaurant</span>
+                            <h3>Restaurant</h3>
+                        </div>
+                        <div>
+                            <p class="wrapper-caption">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                        </div>
+                    </div>                                 
+                </div>
+            </div>
         </section>
 
         <!-- About section -->
-        <section id="about-us">
-            
+        <section id="about-us" class="container about-us">
+            <div class="about">
+                <h2>About us <br> Our History <br> Mission and Vision</h2>
+                <span>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That's why it's crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</span>
+                <button>REQUEST CUSTOM PRICE</button>
+            </div>
+            <img src="images/about_bg.jpg.webp" alt="about us">
         </section>
 
         <!-- Testimonial section -->
         <section id="testimonial">
-
+            <div class="t-heading">
+                <h2>latest posts from blog</h2>
+                <p>Be at the fore-front of luxury trends.</p>
+            </div>
+            <div class="img-holder">
+                <img src="images/blog-1.jpg.webp" alt="">
+            </div>
+            <div>
+                <button>Travel</button>
+                <button>Lifestyle</button>
+            </div>
+            <h3>Low Cost Advertising</h3>
+            <p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.</p>
+            <span>24th July 2023</span>
         </section>
     </main>
 
